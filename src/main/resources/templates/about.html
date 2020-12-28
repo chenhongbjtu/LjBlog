@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大概 · 是我</title>
+    <link href="../static/images/favicon.ico" th:href="@{/images/me1.jpg}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+</head>
+<body>
+
+<!--导航-->
+<nav class="gird-header">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui olive header item" style="font-family: STSong">解忧小王子</h2>
+            <!--<div class="right m-item item m-mobile-hide">-->
+                <a href="#" th:href="@{/}" class="m-item item m-mobile-hide "><i class="home icon"></i>首页</a>
+                <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide"><i class="clone outline icon"></i> 分类</a>
+                <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间 · 轴</a>
+                <a href="#" th:href="@{/music}" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐净土</a>
+                <a href="#" th:href="@{/message}" class="m-item item m-mobile-hide"><i class="book icon"></i>想 · 对我说</a>
+                <a href="#" th:href="@{/friends}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>解忧杂货店</a>
+                <a href="#" th:href="@{/picture}" class="m-item item m-mobile-hide"><i class="image icon"></i>记忆 · 照片</a>
+                <a href="#" th:href="@{/about}" class="active m-item item m-mobile-hide"><i class="info icon"></i>大概 · 是我</a>
+            <!--</div>-->
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
+                    <div class="ui icon transparent input m-margin-tb-tiny" style="color: white">
+                        <input style="color: white" type="text" name="query" placeholder="Search...." th:value="${query}">
+                        <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+
+<!--顶部背景图片-->
+<div class="m-bg-type_outer" style="width: 100%;height: 30%">
+    <img src="../static/images/bg.jpg" th:src="@{/images/bg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
+    <div class="m-bg-class_cover">
+        <div class="ui container" style="position: relative ;bottom: -580px;">
+            <div class="m-font-size-text-init-title m-margin-top" align="center">闯荡江湖二十余载，也许...停下来喝杯茶？</div>
+        </div>
+    </div>
+</div>
+
+<!--个人资料描述-->
+<div class="ui container m-opacity box-shadow-max">
+    <div class="ui segment m-margin-" align="center">
+        <div class="m-margin-top-large" align="center">
+            <img class="ui circular image" align="center" src="../static/images/me.jpg" th:src="@{/images/me.jpg}" style="width: 150px;height: 150px;">
+        </div>
+    <div class="m-margin-top-small" style="font-size: x-large;font-family: STSong" align="center">解忧小王子</div>
+
+    <div class="m-margin-top" align="center">
+        <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+        <a href="#" class="ui qq circular icon button" data-content="316392836" data-position="bottom center"><i class="qq icon"></i></a>
+        <a href="#" class="ui email circular icon button" data-content="my email:747989923@qq.com" data-position="bottom center"><i class="envelope  icon"></i></a>
+    </div>
+
+    <div class="ui wechat-qr flowing popup transition hidden">
+        <img src="../static/images/oneStarWechat.jpg" th:src="@{/images/oneStarWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <div align="center">微信</div>
+    </div>
+    <div class="ui qq-qr flowing popup transition hidden">
+        <img src="../static/images/qq.jpg" th:src="@{/images/qq.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <div align="center">QQ</div>
+    </div>
+        <hr class="m-margin-top-small" style="width: 30%">
+        <br>
+        <div>
+            <p>还没想好怎么介绍我自己</p>
+            <p> 所以</p>
+            <p> 这个部分</p>
+            <br>
+            <p> 等</p>
+            <p> 我想好了</p>
+            <p> 再写</p>
+            <p> ！</p>
+            <p> </p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <hr class="m-margin-top-large">
+        <br>
+        <h2 class="m-margin-tb-tiny" style="font-size: xx-large;font-weight: bold;color: #F08047;font-family: STSong">Have a cup of coffee for me???</h2>
+            <div class="ui orange basic label">
+                <div class="ui images" style="font-size: inherit !important;">
+                    <div class="image">
+                        <img src="../static/images/zhifupay.jpg" th:src="@{/images/zhifupay.jpg}" alt="" class="ui rounded bordered image" style="width: 165px">
+                        <div>支付宝支付</div>
+                    </div>
+                    <div class="image">
+                        <img src="../static/images/wechatpay.jpg" th:src="@{/images/wechatpay.jpg}" alt="" class="ui rounded bordered image" style="width: 160px">
+                        <div>微信支付</div>
+                    </div>
+                </div>
+            </div>
+    <!--<div class="hiddenDiv"></div>-->
+    </div>
+</div>
+
+  <!--底部栏-->
+<footer class="ui inverted vertical segment m-padded-tb-massive m-opacity">
+    <!--容器-->
+    <div class="ui center aligned container">
+        <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">我也是有底线的(๓´╰╯`๓)</div>
+    </div>
+    </div>
+
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+  <script>
+      // $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
+
+      $('#blog-message').load(/*[[@{/footer/blogmessage}]]*/"/footer/blogmessage");
+
+
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    // 显示公众号
+    $('.tencent').popup({
+        popup : $('.tencent-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示微信
+    $('.wechat').popup({
+        popup : $('.wechat-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示QQ
+    $('.qq').popup({
+        popup : $('.qq-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示邮箱
+    $('.email').popup();
+
+    // 显示CSDN
+    $('.csdn').popup();
+
+      // 显示github
+      $('.github').popup();
+
+
+
+
+    // 运行时间统计
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }
+    function setTime() {
+        /*此处为网站的创建时间*/
+        var create_time = Math.round(new Date(Date.UTC(2020, 01, 25, 15, 15, 15)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+            + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+            + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+2020-12-27 10:14:26.129  INFO 24444 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 24444 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 10:14:26.148  INFO 24444 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 10:14:33.927  INFO 24444 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 9.457 seconds (JVM running for 11.924)
+2020-12-27 10:15:00.480  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 10:15:01.151  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
+2020-12-27 10:15:05.003  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 10:15:05.020  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
+2020-12-27 10:15:12.097  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 10:15:12.213  INFO 24444 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 10:15:14.554  INFO 24444 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 10:15:14.594  INFO 24444 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 10:20:19.009  INFO 23956 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 23956 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 10:20:19.017  INFO 23956 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 10:20:25.457  INFO 23956 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 7.561 seconds (JVM running for 8.602)
+2020-12-27 10:20:31.761  INFO 23956 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 10:20:32.515  INFO 23956 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 10:20:35.805  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 10:20:35.850  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 10:20:44.761  INFO 23956 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 10:20:44.909  INFO 23956 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index
+2020-12-27 10:21:07.862  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 10:21:07.884  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 10:21:09.835  INFO 23956 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 10:21:09.839  INFO 23956 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 10:23:09.867  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 10:23:10.138  INFO 23956 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 10:23:11.476  INFO 23956 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 10:23:11.481  INFO 23956 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 10:58:13.912  INFO 8860 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 8860 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 10:58:13.936  INFO 8860 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 10:58:20.900  INFO 8860 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 8.208 seconds (JVM running for 9.28)
+2020-12-27 10:58:34.398  INFO 8860 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 10:58:35.077  INFO 8860 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
+2020-12-27 10:58:44.285  INFO 8860 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 10:58:44.448  INFO 8860 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 10:58:46.167  INFO 8860 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 10:58:46.183  INFO 8860 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 11:04:10.822  INFO 25052 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 25052 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 11:04:10.828  INFO 25052 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 11:04:20.335  INFO 25052 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 10.758 seconds (JVM running for 11.794)
+2020-12-27 11:04:20.766  INFO 25052 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 11:04:21.647  INFO 25052 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index
+2020-12-27 11:06:57.811  INFO 25548 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 25548 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 11:06:57.821  INFO 25548 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 11:07:09.322  INFO 25548 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 12.706 seconds (JVM running for 13.702)
+2020-12-27 11:07:23.350  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 11:07:24.254  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
+2020-12-27 11:08:03.251  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[62, {}]}
+2020-12-27 11:08:03.416  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2020-12-27 11:08:05.904  INFO 25548 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/62', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[62, {}]}
+2020-12-27 11:08:05.945  INFO 25548 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog :: commentList
+2020-12-27 11:08:09.601  INFO 25548 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-12-27 11:08:09.632  INFO 25548 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : types
+2020-12-27 11:08:18.232  INFO 25548 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2020-12-27 11:08:18.246  INFO 25548 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : archives
+2020-12-27 11:08:20.043  INFO 25548 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2020-12-27 11:08:20.060  INFO 25548 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : music
+2020-12-27 11:08:23.719  INFO 25548 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2020-12-27 11:08:23.735  INFO 25548 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : message
+2020-12-27 11:08:24.483  INFO 25548 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2020-12-27 11:08:24.497  INFO 25548 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : message::messageList
+2020-12-27 11:08:26.224  INFO 25548 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2020-12-27 11:08:26.238  INFO 25548 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : friends
+2020-12-27 11:08:28.986  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2020-12-27 11:08:29.000  INFO 25548 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : picture
+2020-12-27 11:08:30.874  INFO 25548 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2020-12-27 11:08:30.881  INFO 25548 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : about
+2020-12-27 11:08:36.656  INFO 25548 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2020-12-27 11:08:36.659  INFO 25548 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : picture
+2020-12-27 11:10:16.583  INFO 3704 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on Ëß£ÂøßÂ∞èÁéãÂ≠ê with PID 3704 (C:\myblog-mybatis-master\target\classes started by ÂàòÊô∂ in C:\myblog-mybatis-master)
+2020-12-27 11:10:16.592  INFO 3704 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-12-27 11:10:29.037  INFO 3704 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 14.34 seconds (JVM running for 16.357)
+2020-12-27 11:10:33.003  INFO 3704 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2020-12-27 11:10:33.031  INFO 3704 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : music
+2020-12-27 11:10:37.833  INFO 3704 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-12-27 11:10:39.108  INFO 3704 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2020-12-27 11:12:28.183  INFO 25376 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on Ω‚”«–°Õı◊” with PID 25376 (started by ¡ıæß in C:\myblog-mybatis-master)
+2020-12-27 11:12:28.186  INFO 25376 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2020-12-27 11:12:42.999  INFO 25376 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 16.963 seconds (JVM running for 22.075)
+2020-12-27 11:14:14.672  INFO 25112 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on Ω‚”«–°Õı◊” with PID 25112 (started by ¡ıæß in C:\myblog-mybatis-master)
+2020-12-27 11:14:14.675  INFO 25112 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2020-12-27 11:14:27.034  INFO 25112 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 14.161 seconds (JVM running for 17.719)
